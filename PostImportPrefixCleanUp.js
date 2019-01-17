@@ -35,7 +35,7 @@ module.exports = class LessPlugin {
   constructor(options) {
     this.options = options;
     this.install = this.install.bind(this);
-    this.PrefixedImport = null;
+    this.PostImportPrefixCleanUp = null;
     this.minVersion = [0, 0, 1];
 
     this.setOptions = (theOptions) => {
