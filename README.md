@@ -41,4 +41,9 @@ The react component has two behaviors:
 1. `useHtmlRoot` set to false. This will wrap all components in a div. This is useful to use multiple themes at the same time
 2. `useHtmlRoot` set to true. This will apply the mark to the `html` element so the entire application uses the same theme, therefore only one theme at a time.
 
-
+## Example
+```HTML
+<ThemeProvider theme="light-green" useHtmlRoot>
+  <div> My Ant.Design application </div>
+</ThemeProvider
+```
